@@ -6,7 +6,10 @@ namespace OOP_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int n;
+            n = Int32.Parse(Console.ReadLine());
+
+            int[] vector = ArrayHelper.Fibonacci(5);
         }
     }
 }
